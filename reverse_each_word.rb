@@ -12,8 +12,8 @@ def reverse_each_word(string)
 end
 =end
 
-def reverse_each_word(string)
-  arr = string.split(' ')
+def reverse_each_word(arr)
+  #arr = string.split(' ')
   arr.collect do |word|
     word.reverse
   end 
