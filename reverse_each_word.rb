@@ -17,5 +17,4 @@ def reverse_each_word(string)
     word.reverse 
     #binding.pry
   end 
-  array
 end 
