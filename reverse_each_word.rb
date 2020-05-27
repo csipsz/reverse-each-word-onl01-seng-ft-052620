@@ -1,6 +1,5 @@
 require 'pry'
 
-=begin
 
 def reverse_each_word(string)
   array = string.split(' ')
@@ -10,7 +9,7 @@ def reverse_each_word(string)
   end 
   result.join(' ')
 end
-=end
+
 
 def reverse_each_word(string)
   arr = string.split(' ')
