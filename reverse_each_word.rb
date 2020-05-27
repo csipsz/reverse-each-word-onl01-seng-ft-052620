@@ -13,8 +13,9 @@ end
 =end
 
 def reverse_each_word(string)
-  string.collect do |word|
+  arr = string.split(' ')
+  arr.collect do |word|
     word.reverse 
-    #binding.pry
   end 
+  arr 
 end 
